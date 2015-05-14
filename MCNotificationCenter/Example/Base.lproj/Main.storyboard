@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MCNotificationCenter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAJ-Vd-eqJ">
+                                <rect key="frame" x="277" y="151" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3fH-mX-04A"/>
+                                    <constraint firstAttribute="width" constant="46" id="h7I-De-F7v"/>
+                                </constraints>
+                                <state key="normal" title="Post 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendNotification1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sMm-Ey-c6d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOh-m4-5dO">
+                                <rect key="frame" x="277" y="403" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RoI-Od-pAv"/>
+                                    <constraint firstAttribute="width" constant="46" id="aO4-Fh-O20"/>
+                                </constraints>
+                                <state key="normal" title="Post 3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendNotification3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q5e-wm-jvr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hR4-Xk-YfI">
+                                <rect key="frame" x="162" y="151" width="41" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="2wR-mO-E4i"/>
+                                    <constraint firstAttribute="height" constant="30" id="mrg-MR-aXi"/>
+                                </constraints>
+                                <state key="normal" title="Reg 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="registerNotification1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wqu-Lr-58h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38T-92-mDn">
+                                <rect key="frame" x="162" y="285" width="41" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="3p5-KH-SX4"/>
+                                    <constraint firstAttribute="height" constant="30" id="xGg-H0-2Xg"/>
+                                </constraints>
+                                <state key="normal" title="Reg 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="registerNotifiation2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="udK-bI-I7T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7y-d5-paO">
+                                <rect key="frame" x="162" y="403" width="41" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="T0g-sI-Mvz"/>
+                                    <constraint firstAttribute="width" constant="41" id="eEY-0o-cnj"/>
+                                </constraints>
+                                <state key="normal" title="Reg 3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="registerNotification3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wok-MI-dxR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6WJ-Ha-wIE">
+                                <rect key="frame" x="402" y="151" width="45" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="HYs-4z-AfB"/>
+                                    <constraint firstAttribute="height" constant="30" id="iWK-e9-GXH"/>
+                                </constraints>
+                                <state key="normal" title="Rem 1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="removeNotification1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ASh-f2-xqo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neL-cp-xsy">
+                                <rect key="frame" x="402" y="285" width="45" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="BKC-GM-tvh"/>
+                                    <constraint firstAttribute="height" constant="30" id="v00-b9-skF"/>
+                                </constraints>
+                                <state key="normal" title="Rem 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="removeNotification2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QOa-tt-BI7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IJ-OB-eh1">
+                                <rect key="frame" x="402" y="403" width="45" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8tQ-Az-FDD"/>
+                                    <constraint firstAttribute="width" constant="45" id="pzP-rI-N3Y"/>
+                                </constraints>
+                                <state key="normal" title="Rem 3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="removeNotification3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1s2-G5-lVA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iId-hW-D18">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="i07-NN-YDY"/>
+                                    <constraint firstAttribute="height" constant="30" id="tdP-2t-aMG"/>
+                                </constraints>
+                                <state key="normal" title="Post 2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendNotification2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r6J-hU-NZW"/>
+                                </connections>
+                            </button>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="dXS-JU-kuv">
+                                <rect key="frame" x="162" y="68" width="94" height="29"/>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAP-cv-rRL">
+                                <rect key="frame" x="272" y="68" width="67" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="Q7N-sP-j4N"/>
+                                    <constraint firstAttribute="height" constant="30" id="aWr-tG-vG8"/>
+                                </constraints>
+                                <state key="normal" title="Rem KVO">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="removeKeyValueObserver:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W9W-7G-VWL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="neL-cp-xsy" firstAttribute="leading" secondItem="iId-hW-D18" secondAttribute="trailing" constant="79" id="2an-Oh-UIx"/>
+                            <constraint firstItem="H7y-d5-paO" firstAttribute="centerY" secondItem="TOh-m4-5dO" secondAttribute="centerY" id="6Xc-3L-01p"/>
+                            <constraint firstItem="iId-hW-D18" firstAttribute="leading" secondItem="38T-92-mDn" secondAttribute="trailing" constant="74" id="AiO-JM-YeA"/>
+                            <constraint firstAttribute="centerY" secondItem="iId-hW-D18" secondAttribute="centerY" id="C44-go-wbm"/>
+                            <constraint firstItem="6WJ-Ha-wIE" firstAttribute="leading" secondItem="jAJ-Vd-eqJ" secondAttribute="trailing" constant="79" id="Ggv-Iy-zQQ"/>
+                            <constraint firstItem="iId-hW-D18" firstAttribute="centerY" secondItem="38T-92-mDn" secondAttribute="centerY" id="Rfo-uN-bHW"/>
+                            <constraint firstItem="jAJ-Vd-eqJ" firstAttribute="centerX" secondItem="iId-hW-D18" secondAttribute="centerX" id="V34-QB-N4s"/>
+                            <constraint firstItem="TOh-m4-5dO" firstAttribute="leading" secondItem="H7y-d5-paO" secondAttribute="trailing" constant="74" id="XWJ-Af-qlR"/>
+                            <constraint firstItem="hR4-Xk-YfI" firstAttribute="centerY" secondItem="jAJ-Vd-eqJ" secondAttribute="centerY" id="YhA-9f-n3G"/>
+                            <constraint firstItem="iId-hW-D18" firstAttribute="top" secondItem="jAJ-Vd-eqJ" secondAttribute="bottom" constant="104" id="c33-WO-LeW"/>
+                            <constraint firstItem="dXS-JU-kuv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="eTB-ix-r54"/>
+                            <constraint firstItem="TOh-m4-5dO" firstAttribute="top" secondItem="iId-hW-D18" secondAttribute="bottom" constant="88" id="fhT-iE-u5M"/>
+                            <constraint firstItem="TOh-m4-5dO" firstAttribute="centerX" secondItem="iId-hW-D18" secondAttribute="centerX" id="jb4-la-nPy"/>
+                            <constraint firstItem="0IJ-OB-eh1" firstAttribute="leading" secondItem="TOh-m4-5dO" secondAttribute="trailing" constant="79" id="mlF-0r-xbJ"/>
+                            <constraint firstItem="TOh-m4-5dO" firstAttribute="centerY" secondItem="0IJ-OB-eh1" secondAttribute="centerY" id="mrS-ph-Zvd"/>
+                            <constraint firstItem="neL-cp-xsy" firstAttribute="centerY" secondItem="iId-hW-D18" secondAttribute="centerY" id="nXu-YI-QmG"/>
+                            <constraint firstItem="jAJ-Vd-eqJ" firstAttribute="leading" secondItem="hR4-Xk-YfI" secondAttribute="trailing" constant="74" id="pHE-Vp-ncW"/>
+                            <constraint firstItem="6WJ-Ha-wIE" firstAttribute="centerY" secondItem="jAJ-Vd-eqJ" secondAttribute="centerY" id="q2f-WU-4sR"/>
+                            <constraint firstAttribute="centerX" secondItem="iId-hW-D18" secondAttribute="centerX" id="r1R-Xk-eaK"/>
+                            <constraint firstItem="yAP-cv-rRL" firstAttribute="leading" secondItem="dXS-JU-kuv" secondAttribute="trailing" constant="16" id="u1k-Fb-KCe"/>
+                            <constraint firstItem="yAP-cv-rRL" firstAttribute="centerY" secondItem="dXS-JU-kuv" secondAttribute="centerY" constant="0.5" id="vaD-Iu-bAM"/>
+                            <constraint firstItem="dXS-JU-kuv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="146" id="xVV-nc-2M4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mStepper" destination="dXS-JU-kuv" id="TS4-CD-QJB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
