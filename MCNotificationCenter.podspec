@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source_files  = "MCNotificationCenter/Source"
+  s.source_files  = "MCNotificationCenter/Source/*.swift"
 
   
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
