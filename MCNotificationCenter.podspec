@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.author             = { "Max Campolo" => "https://github.com/maxcampolo" }
+  s.author             = { "Max Campolo" => "m.campolo91@gmail.com" }
 
   
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
