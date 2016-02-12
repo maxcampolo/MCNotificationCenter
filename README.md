@@ -9,7 +9,7 @@
 * Post a notification only if there is an observer registered, or only if there is a specific class registered as an observer
 
 # Installation
-Using Cocoapods:
+Using CocoaPods:
 
 ```sh
 $ pod 'MCNotificationCenter'
